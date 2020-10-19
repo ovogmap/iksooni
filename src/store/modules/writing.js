@@ -8,7 +8,7 @@ export const onSubmitVlaue = (content) => ({type: CHANGE_VLAUE, content})
 const INITIAL_STATE = {
   content: '',
   nickName: '',
-  id: ''
+  creatorId: ''
 }
 
 export default function writing(state = INITIAL_STATE, action) {

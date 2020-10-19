@@ -4,8 +4,8 @@ const START_LOADING = 'main/START_LOADING'
 const END_LOADING = 'main/END_LOADING'
 
 export const onGetContent = (content) => ({type: GET_CONTENT, content})
-export const onStartLoading= () => ({type:START_LOADING, isLoading: true })
-export const onEndLoading = () => ({type:END_LOADING, isLoading: false })
+export const onStartLoading= () => ({type:START_LOADING,})
+export const onEndLoading = () => ({type:END_LOADING,})
 
 
 
@@ -30,12 +30,12 @@ export default function main(state = INITIAL_STATE, action) {
     case START_LOADING:
       return {
         ...state,
-        isLoading: action.isLoading
+        isLoading: true
       }
     case END_LOADING:
       return {
         ...state,
-        isLoading: action.isLoading
+        isLoading: false
       }
     default:
       return state

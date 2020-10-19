@@ -1,8 +1,9 @@
 <h1>프로젝트 소개</h1>
 <p>간단한 로그인 또는 비로그인으로 접속후 익명으로 자신의 속마음을 털어놓을수 있는 인터넷 대나무숲</p>
-
+</br>
+</br>
+<h4>기술스택</h4>
 <ul>
-  <h4>기술스택</h4>
   <li>웹디자인 => adobe XD</li>
   <li>화면전환 => react-router-dom</li>
   <li>스타일링 => styled-components</li>
